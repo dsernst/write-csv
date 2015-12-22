@@ -1,6 +1,6 @@
 {
   "name": "write-csv",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Quickly write json array to a .csv file",
   "main": "index.js",
   "scripts": {
