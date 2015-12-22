@@ -20,6 +20,9 @@ var writeCSV = require('write-csv')
 
 ### writeFile(filename, data)
 
+- `filename` String filename or file descriptor
+- `data` Array of objects
+
 ```js
 var data = [
   {a: 'foo', b: 'bar', c: 'baz'},
