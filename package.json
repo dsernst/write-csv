@@ -4,6 +4,7 @@
   "description": "Quickly write json array to a .csv file",
   "main": "index.js",
   "scripts": {
+    "cover": "istanbul cover _mocha",
     "test": "mocha"
   },
   "keywords": [
@@ -22,6 +23,9 @@
     "csv-stringify": "0.0.8"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-lcov-reporter": "^1.0.0"
   }
 }
