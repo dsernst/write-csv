@@ -13,5 +13,8 @@
     "easy"
   ],
   "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-stringify": "0.0.8"
+  }
 }
