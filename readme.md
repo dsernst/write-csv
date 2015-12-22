@@ -32,7 +32,14 @@ var data = [
 ```
 
 ```js
-writeCSV('./filename.csv', data)
+writeCSV('./results.csv', data)
 ```
 
-This will synchronously write your data to `filename.csv` like this:
+This will synchronously write your data to `results.csv` like this:
+
+```csv
+a,b,c
+foo,bar,baz
+shoo,boo,chaz
+gaia,loves,you
+```
