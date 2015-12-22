@@ -4,7 +4,7 @@
   "description": "Quickly write json array to a .csv file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "write",
@@ -16,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "csv-stringify": "0.0.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
   }
 }
