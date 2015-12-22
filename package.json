@@ -13,6 +13,10 @@
     "easy"
   ],
   "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsernst/write-csv.git"
+  },
   "license": "ISC",
   "dependencies": {
     "csv-stringify": "0.0.8"
