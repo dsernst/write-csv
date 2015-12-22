@@ -28,15 +28,11 @@ var writeCSV = require('write-csv')
 - `data` Array of objects
 
 ```js
-var data = [
+writeCSV('./results.csv', [
   {a: 'foo', b: 'bar', c: 'baz'},
   {a: 'shoo', b: 'boo', c: 'chaz'},
   {a: 'gaia', b: 'loves', c: 'you'},
-]
-```
-
-```js
-writeCSV('./results.csv', data)
+])
 ```
 
 This will synchronously write your data to `results.csv` like this:
