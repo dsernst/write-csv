@@ -1,0 +1,17 @@
+{
+  "name": "write-csv",
+  "version": "0.0.1",
+  "description": "Quickly write json array to a .csv file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "write",
+    "csv",
+    "quick",
+    "easy"
+  ],
+  "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
+  "license": "ISC"
+}
